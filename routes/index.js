@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'CURLY BRACE ' });
+  res.render('index', { title: '{ CURLY { BRACE ' });
 });
 
 module.exports = router;
